@@ -229,7 +229,7 @@ def generate_word_for_id(tokenizer, word_id):
     return None
 
 def generate_description(model, features, tokenizer, max_length):
-	seq_text = 'startseq'
+    seq_text = 'startseq'
 	for i in range(max_length):
 		sequence = tokenizer.texts_to_sequences([seq_text])[0]
 		sequence = pad_sequences([sequence], maxlen=max_length)
