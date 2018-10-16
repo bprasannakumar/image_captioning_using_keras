@@ -1,7 +1,8 @@
 This is an image captioning project using deep learning with keras.
 
 The dataset for this project can be objected from the following url.
-https://forms.illinois.edu/sec/1713398
+https://forms.illinois.edu/sec/1713398.
+
 The dataset contains 6,000 training images, 1,000 evaluation images, and 1,000 test images.
 
 A VGG16 pre-trained model is used to extract features from the images.
