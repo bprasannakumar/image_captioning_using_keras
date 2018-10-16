@@ -5,8 +5,7 @@ Created on Sun Oct 14 18:28:41 2018
 @author: Kumar
 """
 import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
+
 import os
 import pickle
 import string
@@ -230,6 +229,7 @@ def generate_word_for_id(tokenizer, word_id):
 
 def generate_description(model, features, tokenizer, max_length):
     seq_text = 'startseq'
+
 	for i in range(max_length):
 		sequence = tokenizer.texts_to_sequences([seq_text])[0]
 		sequence = pad_sequences([sequence], maxlen=max_length)
