@@ -10,6 +10,7 @@ A sequence model is used to generate sequence from data
 A merge/decoder model is used to combine features and generate output.
 
 We use BLEU score to test the accuracy of the model.
+
 This idea is taken from the link https://arxiv.org/abs/1703.09137.
 
 
